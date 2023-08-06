@@ -94,9 +94,7 @@
   color: white;
 }
 
-.more-wrap{
-  // text-align: end;
-}
+
 
 .photo-title{
   font-weight: 350;
