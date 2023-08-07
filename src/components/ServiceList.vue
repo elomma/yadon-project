@@ -92,8 +92,10 @@ export default {
   },
 
   methods:{
+
+    //  to Ms.張
     redirectSire:function(){
-      window.open('https://line.me/ti/p/FGcBjHXZGD')
+      window.open('https://line.me/ti/p/xBwukU2BYG')
     },
   },
   components:{ 
