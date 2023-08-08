@@ -13,8 +13,9 @@
             <li>展開財富自由新篇章</li>
           </ul>
           <button
-            @click="'redirectSite'"
-            class="open-acc-btn">前往開戶  > </button>
+            @click="redirectSite"
+            class="open-acc-btn">前往開戶  >
+          </button>
         </div>
       </div>
     </section>
@@ -29,8 +30,9 @@
             <li>立即申辦手續費率優惠</li>
           </ul>
           <button
-            @click="'redirectSite'"
-            class="more-btn">瞭解更多  > </button>
+            @click="redirectSite"
+            class="more-btn">瞭解更多  > 
+          </button>
         </div>
         <div class="to-invest-wrap">
           <img class="to-invest-img" src="../assets/invest.png" alt="">
@@ -250,6 +252,8 @@ export default {
 
   methods:{
     redirectSite:function(){
+
+      console.log('asd')
       window.open('https://line.me/ti/p/x9n-Huz74Y')
     },
   },
