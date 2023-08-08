@@ -1,13 +1,19 @@
 <template>
-  <div class="service-wrap">
+  <div class="outer-wrap">
+    <div class="banner">
+      <img
+        @click="redirectSite"
+        src="../assets/banner.jpg" alt="">
+    </div>
+    <div class="service-wrap">
 
     <!-- computer -->
     <div
       v-for="service in serviceList"
       class="service-list"
-      @click="redirectSire"
+      @click="redirectSite"
     >
-      <img :src="service.serviceImg" alt="">
+      <img :src="service.serviceImg">
       <div class="service-text"> {{ service.serviceListText }}</div>
     </div>
 
@@ -15,10 +21,11 @@
     <div
       v-for="service in serviceListMobile"
       class="service-list-mobile"
-      @click="redirectSire"
+      @click="redirectSite"
     >
-      <img :src="service.serviceImg" alt="">
+      <img :src="service.serviceImg">
       <div class="service-text"> {{ service.serviceListText }}</div>
+    </div>
     </div>
   </div>
 </template>
@@ -27,6 +34,14 @@
 <style lang="scss">
 
 
+.outer-wrap{
+  width: 100%;
+}
+
+
+.banner{
+  display: none;
+}
 .service-wrap{
   display: flex;
   justify-content: space-around;
@@ -49,7 +64,7 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
   .service-list{
     display: none;
@@ -57,7 +72,21 @@
 
   .service-list-mobile{
     display: block;
-    width: 25%;
+    width: 22%;
+  }
+
+  .banner{
+    display: block;
+
+    img{
+      // width: 100%;
+      height: 150px;
+      width: 100%;
+    }
+  }
+
+  .service-wrap{
+    padding: 20px 50px;
   }
 
 }
@@ -94,8 +123,8 @@ export default {
   methods:{
 
     //  to Ms.張
-    redirectSire:function(){
-      window.open('https://line.me/ti/p/xBwukU2BYG')
+    redirectSite:function(){
+      window.open('https://line.me/ti/p/x9n-Huz74Y')
     },
   },
   components:{ 

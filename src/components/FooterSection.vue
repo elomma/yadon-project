@@ -52,8 +52,8 @@ export default {
   },
 
   methods:{
-    redirectSire:function(){
-      window.open('https://line.me/ti/p/FGcBjHXZGD')
+    redirectSite:function(){
+      window.open('https://line.me/ti/p/x9n-Huz74Y')
     },
   },
   components:{ 

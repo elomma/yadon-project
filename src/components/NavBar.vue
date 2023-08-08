@@ -136,7 +136,8 @@
 // mobile
 
 .nav-wrap-mobile{
-  
+  z-index: 99;
+  position: fixed;
   display:none;
   width: 100%;
   height: 65px;
