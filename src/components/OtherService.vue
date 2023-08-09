@@ -254,7 +254,7 @@ export default {
     redirectSite:function(){
 
       console.log('asd')
-      window.open('https://line.me/ti/p/x9n-Huz74Y')
+      window.open('https://ok0.xyz/a/mBtBvLuU9001')
     },
   },
   components:{ 
