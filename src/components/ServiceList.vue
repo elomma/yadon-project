@@ -3,7 +3,7 @@
     <div class="banner">
       <img
         @click="redirectSite"
-        src="../assets/banner.jpg" alt="">
+        src="../assets/lesson-banner.jpg" alt="">
     </div>
     <div class="service-wrap">
 
@@ -77,10 +77,14 @@
 
   .banner{
     display: block;
+    // padding-top: ;
+    // border: 1px solid red;
+    // box-shadow: 5px 1px #121212;
+    // box-shadow: 1px 1px 1px #fcee9f;
 
     img{
       // width: 100%;
-      height: 150px;
+      // height: 150px;
       width: 100%;
     }
   }
